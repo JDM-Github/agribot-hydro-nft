@@ -4,8 +4,9 @@ import { darkMode } from '$lib/stores/theme';
 export function load({ url }) {
 	const records = [
 		{ name: 'DASHBOARD', path: '/' },
-		{ name: 'LIVE', path: '/live' },
-		{ name: 'RECORDS', path: '/record' }
+		{ name: 'PLANTS', path: '/plants' },
+		{ name: 'DOWNLOAD', path: '/download' },
+		{ name: 'ABOUT', path: '/about' },
 	];
 
 	const currentPath = url.pathname;

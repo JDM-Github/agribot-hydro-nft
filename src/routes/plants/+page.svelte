@@ -1,9 +1,7 @@
 <script lang="ts">
-	import Footer from '../../lib/components/Footer.svelte';
-	import { onMount } from 'svelte';
+	import Footer from '$lib/components/Footer.svelte';
+	import PlantModal from '$lib/components/modal/PlantModal.svelte';
 	import { writable } from 'svelte/store';
-
-	import PlantModal from '../../lib/modal/PlantModal.svelte';
 
 	let showModal = false;
 	let plant = {

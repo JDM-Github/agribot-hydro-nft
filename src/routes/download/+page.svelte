@@ -52,8 +52,7 @@
 			>
 				<div class="relative z-10 mb-4 flex items-center space-x-4">
 					<img src="/LOGO.ico" alt="App Logo" class="mb-4 h-20 w-auto sm:h-28" />
-					<!-- svelte-ignore a11y_consider_explicit_label -->
-					<a href="https://github.com/yourrepo" target="_blank" rel="noopener noreferrer">
+					<a href="https://github.com/JDM-Github/agribot-hydro-nft.git" target="_blank" rel="noopener noreferrer" aria-label="Github">
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
 							fill="currentColor"
