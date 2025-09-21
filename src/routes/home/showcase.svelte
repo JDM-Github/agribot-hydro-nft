@@ -1,43 +1,10 @@
-<script>
+<script lang="ts">
 	import Swiper from 'swiper/bundle';
 	import 'swiper/css/bundle';
 	import { onMount } from 'svelte';
 
 	let swiperInstance;
-
-	const plants = [
-		{
-			name: 'Tomato',
-			image:
-				'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJKRPXQYgZjJmuQTgXVQNLoZRxRWe7aW09wg&s',
-			description:
-				'We monitor tomatoes for blight, early stress signals, and nutrient deficiencies.'
-		},
-		{
-			name: 'Rose',
-			image:
-				'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJKRPXQYgZjJmuQTgXVQNLoZRxRWe7aW09wg&s',
-			description: 'Roses are tracked for fungal infections, pest damage, and growth health.'
-		},
-		{
-			name: 'Lettuce',
-			image:
-				'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJKRPXQYgZjJmuQTgXVQNLoZRxRWe7aW09wg&s',
-			description: 'Lettuce is scanned for stress, mildew, and nutrient issues.'
-		},
-		{
-			name: 'Cucumber',
-			image:
-				'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJKRPXQYgZjJmuQTgXVQNLoZRxRWe7aW09wg&s',
-			description: 'Monitoring cucumbers for powdery mildew and optimal hydration.'
-		},
-		{
-			name: 'Strawberry',
-			image:
-				'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJKRPXQYgZjJmuQTgXVQNLoZRxRWe7aW09wg&s',
-			description: 'Strawberries are observed for botrytis, pests, and nutrient imbalances.'
-		}
-	];
+	export let plants: any = [];
 
 	onMount(() => {
 		swiperInstance = new Swiper('.plant-swiper', {

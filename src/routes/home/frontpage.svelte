@@ -21,16 +21,18 @@
 		</p>
 
 		<div class="flex flex-col sm:flex-row gap-3 sm:gap-4 w-full sm:w-auto justify-center">
-			<button
+			<a
 				class="w-full sm:w-auto rounded-lg bg-green-600 px-6 py-2.5 sm:px-8 sm:py-3 font-semibold text-white shadow-lg hover:bg-green-700 transition-all dark:bg-green-700 dark:hover:bg-green-800"
+				href="/download"
 			>
 				Get Started
-			</button>
-			<button
+			</a>
+			<a
 				class="w-full sm:w-auto rounded-lg border border-white/60 px-6 py-2.5 sm:px-8 sm:py-3 text-white hover:bg-white/10 transition-all dark:border-gray-500 dark:text-gray-300 dark:hover:bg-gray-700"
+				href="/about"
 			>
-				Learn More
-			</button>
+				About
+			</a>
 		</div>
 	</div>
 </section>

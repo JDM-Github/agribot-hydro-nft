@@ -1,5 +1,7 @@
 <script lang="ts">
 
+	export let data;
+
 	let gsap: any, ScrollTrigger;
 	if (!import.meta.env.SSR) {
 		import('gsap').then((module) => {
@@ -19,7 +21,7 @@
 							ease: 'power2.out',
 							scrollTrigger: {
 								trigger: section,
-								start: 'top 80%',
+								start: 'top 50%',
 								toggleActions: 'play none none none'
 							}
 						}
@@ -61,7 +63,7 @@
 	<Frontpage />
 	<Whatwedo />
 	<Technology />
-	<Showcase />
+	<Showcase plants={data.plants}/>
 	<Contactus />
 	<Social />
 	<Footer />

@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { onDestroy, onMount } from 'svelte';
 
-	let modelPath = '/models/AGRIBOT.glb';
+	let modelPath = '/models/AGRIBOT2.glb';
 	let modelBlobUrl: string | null = null;
 	let modelViewerRef: any;
 	let worker: Worker | null = null;
@@ -34,15 +34,6 @@
 		}
 	});
 
-	const applyMaterialProperties = () => {
-		if (!modelViewerRef?.model) return;
-		modelViewerRef.model.materials.forEach((material: any) => {
-			if (material.pbrMetallicRoughness) {
-				material.pbrMetallicRoughness.setMetallicFactor(1);
-				material.pbrMetallicRoughness.setRoughnessFactor(0);
-			}
-		});
-	};
 </script>
 
 {#if isLoading}
@@ -60,7 +51,6 @@
 		shadow-softness="1"
 		environment-image="neutral"
 		style="width: 100%; height: 500px;"
-		on:load={applyMaterialProperties}
 	></model-viewer>
 {/if}
 
