@@ -37,11 +37,14 @@
 						Download for Windows
 					</button>
 
-					<button
-						class="z-10 w-full rounded-lg bg-teal-500 px-4 py-2 text-base text-white shadow-lg transition-transform hover:scale-105 hover:bg-teal-600 sm:text-lg md:w-3/4"
+					<a
+						href="https://drive.google.com/uc?export=download&id=1Z8u-ytjo51oeMBmgJpCcXg-uG2DxKDpc"
+						target="_blank"
+						rel="noopener noreferrer"
+						class="z-10 w-full rounded-lg bg-teal-500 px-4 py-2 text-base text-white shadow-lg transition-transform hover:scale-105 hover:bg-teal-600 sm:text-lg md:w-3/4 text-center"
 					>
 						Download APK (Android)
-					</button>
+					</a>
 				</div>
 			</div>
 
@@ -52,7 +55,12 @@
 			>
 				<div class="relative z-10 mb-4 flex items-center space-x-4">
 					<img src="/LOGO.ico" alt="App Logo" class="mb-4 h-20 w-auto sm:h-28" />
-					<a href="https://github.com/JDM-Github/agribot-hydro-nft.git" target="_blank" rel="noopener noreferrer" aria-label="Github">
+					<a
+						href="https://github.com/JDM-Github/agribot-hydro-nft.git"
+						target="_blank"
+						rel="noopener noreferrer"
+						aria-label="Github"
+					>
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
 							fill="currentColor"
@@ -79,9 +87,9 @@
 				</p>
 
 				<a
-					href="https://agribot-studio.netlify.app"
+					href="https://agribot-hydro-nft-stdio.netlify.app"
 					target="_blank"
-					class="z-10 w-full cursor-pointer rounded-lg bg-green-500 dark:bg-green-500/50 px-4 py-2 text-base text-white shadow-lg transition-transform hover:bg-green-700 dark:hover:bg-green-700/50 sm:text-lg md:w-3/4 text-center"
+					class="z-10 w-full cursor-pointer rounded-lg bg-green-500 px-4 py-2 text-center text-base text-white shadow-lg transition-transform hover:bg-green-700 sm:text-lg md:w-3/4 dark:bg-green-500/50 dark:hover:bg-green-700/50"
 				>
 					Use Web Version
 				</a>

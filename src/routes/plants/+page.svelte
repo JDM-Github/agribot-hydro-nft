@@ -54,11 +54,11 @@
 			</div>
 
 			<div
-				class="grid grid-cols-1 gap-4 rounded-2xl border border-gray-200 p-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 dark:border-gray-700 min-h-[550px]"
+				class="grid grid-cols-1 gap-4 rounded-2xl border border-gray-200 p-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 dark:border-gray-700 min-h-[500px]"
 			>
 				{#each paginate($plantData, $currentPage, itemsPerPage) as plant, index}
 					<div
-						class="plant-item transform overflow-hidden rounded-lg bg-white shadow-md transition hover:-translate-y-1 hover:shadow-lg dark:bg-gray-900 max-h-[350px]"
+						class="plant-item transform overflow-hidden rounded-lg bg-white shadow-md transition hover:-translate-y-1 hover:shadow-lg dark:bg-gray-900 max-h-[250px]"
 						style="animation-delay: {index * 100}ms;"
 					>
 						<img src={plant.image} alt={plant.name} class="h-40 w-full object-cover" />
